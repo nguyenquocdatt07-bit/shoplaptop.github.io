@@ -1,0 +1,32 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#222;line-height:1.6}
+header{background:#0d47a1;color:#fff;text-align:center;padding:30px 10px}
+header h1{margin:0}
+nav{background:#1565c0;display:flex;flex-wrap:wrap;justify-content:center}
+nav a{color:#fff;text-decoration:none;padding:14px 20px}
+nav a:hover,nav a.active{background:#0a3d91}
+main{max-width:1100px;margin:auto;padding:20px}
+.banner{width:100%;max-height:320px;object-fit:cover;border-radius:8px}
+table{width:100%;border-collapse:collapse;margin:20px 0}
+th,td{border:1px solid #ccc;padding:10px;text-align:left}
+th{background:#e3f2fd}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+.card{border:1px solid #ddd;border-radius:8px;padding:12px;text-align:center}
+.card img{width:100%;border-radius:6px}
+.price{color:#d32f2f;font-weight:bold}
+.btn{display:inline-block;background:#1565c0;color:#fff;padding:8px 16px;border:0;border-radius:4px;text-decoration:none;cursor:pointer}
+.two{display:flex;gap:30px;flex-wrap:wrap}.two>div{flex:1;min-width:260px}
+.video{position:relative;padding-bottom:56.25%;height:0}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+input,select,textarea{width:100%;padding:8px}
+footer{background:#222;color:#ddd;text-align:center;padding:20px;margin-top:30px}
+footer a{color:#90caf9}
+@media(max-width:600px){nav a{padding:10px 12px;font-size:14px}}
+.card{transition:.25s;background:#fff}
+.card:hover{transform:translateY(-6px);box-shadow:0 8px 20px rgba(0,0,0,.18)}
+.banner{box-shadow:0 4px 14px rgba(0,0,0,.2)}
+.card img{height:200px;object-fit:contain;background:#fff}
+.hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;background:linear-gradient(135deg,#0d47a1,#00bcd4);color:#fff;border-radius:8px;padding:20px}
+.hero>div{flex:1.2;min-width:240px}
+.hero img{flex:1;min-width:140px;max-width:220px;height:auto;background:#fff;border-radius:8px;padding:6px}
+.hero .btn{background:#ff6f00}
